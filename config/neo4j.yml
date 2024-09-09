@@ -1,0 +1,17 @@
+development:
+  type: bolt
+  url: bolt://localhost:7687
+  username: neo4j
+  password: secret
+
+test:
+  type: bolt
+  url: bolt://localhost:7687
+  username: neo4j
+  password: secret
+
+production:
+  type: bolt
+  url: bolt://localhost:7687
+  username: neo4j
+  password: secret

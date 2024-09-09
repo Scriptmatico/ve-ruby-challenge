@@ -15,7 +15,7 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 # install neo4j
-gem 'neo4j', '10.0.0.pre.alpha.2'
+gem 'neo4j', '10.0.0.pre.alpha.5'
 # Neo4j Driver
 gem 'neo4j-ruby-driver'
 

@@ -1,0 +1,21 @@
+{
+  "name": "Ruby on Rails and Neo4j Dev Container",
+  "dockerComposeFile": "docker-compose.yml",
+  "shutdownAction": "stopCompose",
+  "workspaceFolder": "/workspace",
+  "postCreateCommand": "bundle install",
+  "service": "example",
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "extensions": [
+    "rebornix.ruby",
+    "alexkrechik.cucumberautocomplete",
+    "ms-azuretools.vscode-docker"
+  ],
+  "forwardPorts": [3000, 7687],
+  "remoteUser": "root",
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
+  ]
+}
